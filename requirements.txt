@@ -1,0 +1,7 @@
+cython
+submitit
+scipy
+termcolor
+addict
+yapf
+timm
