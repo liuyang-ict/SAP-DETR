@@ -179,7 +179,7 @@ As the training is time consuming, we suggest to train the model on multi-device
 # for sap_detr: 43.1 AP
 sh ./scripts/train/r50-50epoch.sh
 
-# for sap_detr_dc5_r50: 48.7 AP
+# for sap_detr_dc5_r50: 46.0 AP
 sh ./scripts/train/r50-dc-50epoch.sh
 ```
 
