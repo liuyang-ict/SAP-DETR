@@ -28,5 +28,5 @@ python -m torch.distributed.launch --nproc_per_node=8 \
   --newconvinit \
   --sdg \
   --output_dir ${EXP_DIR} \
-     2>&1 | tee ${EXP_DIR}/log.txt
+     2>&1 | tee ${EXP_DIR}/train.log
 
