@@ -168,6 +168,13 @@ python main.py -m sap_detr \
   --batch_size 1 \
   --epochs 50 \
   --lr_drop 40 \
+  --num_select 300 \
+  --num_queries 306 \
+  --warmup_iters 1000 \
+  --meshgrid_refpoints_xy \
+  --bbox_embed_diff_each_layer \
+  --newconvinit \
+  --sdg \
   --coco_path /path/to/your/COCODIR  # replace the args to your COCO path
 ```
 
