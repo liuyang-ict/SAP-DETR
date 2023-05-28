@@ -207,10 +207,11 @@ MASTER_ADDR=<IP address of node 0> NODE_RANK=1 GPUS_PER_NODE=4 ./tools/run_dist_
 
 ## Citation
 ```bibtex
-@article{liu2022sap,
-  title={SAP-DETR: Bridging the Gap Between Salient Points and Queries-Based Transformer Detector for Fast Model Convergency},
+@inproceedings{liu2023sap,
+  title={Sap-detr: Bridging the gap between salient points and queries-based transformer detector for fast model convergency},
   author={Liu, Yang and Zhang, Yao and Wang, Yixin and Zhang, Yang and Tian, Jiang and Shi, Zhongchao and Fan, Jianping and He, Zhiqiang},
-  journal={arXiv preprint arXiv:2211.02006},
-  year={2022}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={15539--15547},
+  year={2023}
 }
 ```
